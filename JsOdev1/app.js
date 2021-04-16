@@ -12,8 +12,8 @@ function tarihYaz(){
   //arka plan rengi belirleniyor
   let karsilamaYazisi = document.querySelector('h1');
   let saatYazisi = document.querySelector('#tarih');
-  karsilamaYazisi.style.backgroundColor = `rgb(${dakika},${saat},${saniye})`;
-  saatYazisi.style.backgroundColor = `rgb(${dakika},${saniye},${saat})`;
+  karsilamaYazisi.style.backgroundColor = `rgb(${saniye},${saat},${dakika})`;
+  saatYazisi.style.backgroundColor = `rgb(${saniye*4},${saniye*3},${saniye*2})`;
 
   //getDay() değerine göre gün belirleniyor
   if(tarih.getDay() == 1){

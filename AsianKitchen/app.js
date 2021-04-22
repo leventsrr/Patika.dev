@@ -81,6 +81,8 @@ const menu = [
       desc: `Red bean paste dessert, serving with honey.`,
     },
   ];
+///////////////////////map ve reduce kullanılan örnek proje kaynakları tavsiyeniz varsa geri bildirim göndermeniz benim için çok güzel olur şimdiden teşekkürler////////////
+
 
 //kategorilere göre yeni diziler oluşturuldu
 const koreaMenu = menu.filter( item => item.category == 'Korea');

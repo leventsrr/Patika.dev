@@ -1,0 +1,9 @@
+.delete{
+   float: right;
+   outline: none;
+   color: white;
+   background-color: red;
+   border: none;
+   width: 100px;
+   border-radius: 20px;
+}
